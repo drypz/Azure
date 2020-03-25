@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  },
+  "ConnectionStrings": {
+    "sqldb_connection": "Persist Security Info=False;User ID=sa;Password=12345a$1;Initial Catalog=TestDB;Data Source=tcp:20.44.208.72,1433"
+  }
+}

@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/src/FunctionApp/SQL_CRUD_FunctionApp/.vs/SQL_CRUD_FunctionApp/v16
+/src/FunctionApp/SQL_CRUD_FunctionApp/SQL_CRUD_FunctionApp_Tests/bin/Debug/netcoreapp3.1
+/src/FunctionApp/SQL_CRUD_FunctionApp/.vs/SQL_CRUD_FunctionApp/config
+/src/FunctionApp/SQL_CRUD_FunctionApp/.vs/SQL_CRUD_FunctionApp/DesignTimeBuild
+/src/FunctionApp/SQL_CRUD_FunctionApp/SQL_CRUD_FunctionApp_Tests/obj/Debug/netcoreapp3.1
+/src/FunctionApp/SQL_CRUD_FunctionApp/SQL_CRUD_FunctionApp_Tests/obj
