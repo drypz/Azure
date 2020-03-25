@@ -15,7 +15,7 @@ namespace SQL_CRUD_FunctionApp
     {
         [FunctionName("UpdateEmployee")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a UpdateEmployee request.");
@@ -35,7 +35,7 @@ namespace SQL_CRUD_FunctionApp
                     try
                     {
                         sqlConn.Open();
-                        cmd.ExecuteNonQuery();
+                        await cmd.ExecuteNonQueryAsync();
                     }
                     catch (SqlException e)
                     {

@@ -35,7 +35,7 @@ namespace SQL_CRUD_FunctionApp
                     try
                     {
                         sqlConn.Open();
-                        cmd.ExecuteNonQuery();
+                        await cmd.ExecuteNonQueryAsync();
                     }
                     catch (SqlException e)
                     {
